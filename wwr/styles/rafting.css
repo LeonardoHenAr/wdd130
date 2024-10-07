@@ -1,10 +1,10 @@
 
 :root {
-    --primary-color: #3498db;  
-    --secondary-color: #C35758;  
-    --accent-color: #e74c3c;  
+    --primary-color: #4896C4;  
+    --secondary-color: #116F54;  
+    --accent-color: #5B8F81;  
     --font-color: #333333;  
-    --background-color: #f4f4f4;  
+    --background-color: #FEFCFB;  
     --hero-overlay-color: rgba(0, 0, 0, 0.5);  
 }
 
@@ -25,39 +25,6 @@ body {
     margin: 0 auto;
     background-color: var(--background-color);
 }
-/*.hero img{
-    display: block;
-    width: 100%;
-    height: auto;
-}
-
-.hero h1 {
-    position: absolute;
-    top: 35%;
-    left: 50%;
-    transform: translate(-50%, -20%);
-    color: var(--background-color);
-    background-color: var(--hero-overlay-color);
-    padding: 10px 20px;
-    font-size: 3rem;
-}
-
-.hero article h1 {
-    position: absolute;
-    bottom: 50%;
-    left: 50%;
-    transform: translate(-50%, 90%);
-    background-color: rgba(255, 255, 255, 0.8);
-    padding: 20px;
-    width: 80%;
-}
-
-.hero article img {
-    float: right;
-    margin-left: 20px;
-    width: 40%;
-    height: auto;
-}*/
 
 .hero {
     position: relative;
@@ -76,7 +43,7 @@ body {
     left: 50%;
     transform: translate(-50%, -20%);
     color: white;
-    background-color: rgba(252, 250, 250, 0.6); /* Fondo oscuro para el texto */
+    background-color: rgba(252, 250, 250, 0.6); 
     padding: 20px;
     font-size: 3rem;
 }
@@ -86,7 +53,7 @@ body {
     bottom: 5%;
     left: 50%;
     transform: translate(-50%, -10%);
-    background-color: rgba(252, 250, 250, 0.6); /* Fondo semitransparente */
+    background-color: rgba(252, 250, 250, 0.6); 
     color: white;
     padding: 20px;
     width: 70%;
