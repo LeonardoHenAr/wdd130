@@ -58,13 +58,13 @@ a:hover{
 
 h1, h2{
     color: var(--primary-color);
-    font-family: "Roboto", sans-serif;
+    font-family: "Roboto";
     font-weight: 400;
 }
 
 p {
     color: var(--font-color);
-    font-family: "Roboto", sans-serif;
+    font-family: "Roboto";
     font-weight: 400;
     line-height: 1.6;
 }
