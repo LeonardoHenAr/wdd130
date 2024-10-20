@@ -1,20 +1,25 @@
 <!DOCTYPE html>
 <html lang="en-US">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HeGu Rafting Company</title>
+    <meta name="description"
+        content="Contact is a web page created to practice and check the knowledge developed during this week, as well as apply concepts from the web page with rafting information, also, with our contact info.">
+    <meta name="author" content="Leonardo Henao Arboleda">
+    <title>HeGu Rafting Company - Contact</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles/rafting.css">
 </head>
+
 <body>
     <header>
         <div class="logo">
-        <img src="./images/ww1-logo.jpg" alt="a picture of our logo" class="logoImg">
+            <img src="./images/ww1-logo.jpg" alt="a picture of our logo" class="logoImg">
         </div>
-        <nav>
+        <nav class="navBar">
             <a href="index.html">Home.</a>
             <a href="about.html">About us.</a>
             <a href="trips.html">Trips.</a>
@@ -22,17 +27,147 @@
         </nav>
     </header>
 
-    <main>
-        <div>
-            <h1>Main Contact</h1>
+    <section class="title">
+        <div class="contectOfContact">
+            <h1>Main contact.</h1>
         </div>
+    </section>
+    <h2 class="contactText">Get in touch with us.</h2>
+    <main>
+        <div class="contactForm">
+            <section class="contactInfo">
+                <h3>Address</h3>
+                <div class="icons">
+                    <img src="./images/7853838_address_home_house_icon.svg" alt="an icon for a house as an address"
+                        class="imageCenter">
+                </div>
+                <p>Calle 59C # 24A - 13. <br>Medellin, Antioquia. <br> Colombia</p>
+            </section>
+            <section class="contactInfo">
+                <h3>Phone number(s)</h3>
+                <div class="icons">
+                    <img src="./images/5279121_call_chat_messenger_whatsapp_whatsapp logo_icon.svg"
+                        alt="an icon with the form of a phone to contact us using a phone or chat">
+                </div>
+                <p>HeGu rafting phone number: +57 604-2163589. <br>
+                    Leo's phone: +57 3215016892. <br>
+                    Manuela's phone number: + 57 3195924547.</p>
+            </section>
+            <section class="contactInfo">
+                <h3>E-mail</h3>
+                <div class="icons">
+                    <img src="./images/2203552_email_inbox_letter_send_icon.svg"
+                        alt="an icon for the option to get in contact using email">
+                </div>
+                <p>hegurafting@gmail.com <br>leonardo.henao193@gmail.com <br> manuela746@gmail.com</p>
+            </section>
+        </div>
+        <div class="map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d31740.899048977226!2d-74.989547!3d6.047798!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e46ad3f86e12a47%3A0xc407c34d2ef10c5b!2sCascada%20La%20Planta!5e0!3m2!1ses!2sco!4v1729385884849!5m2!1ses!2sco"
+                width="600" height="450" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <section class="adventure">
+            <figure>
+                <img src="./images/sanLuis.jpg" alt="a picture of the river San Luis Antioquia" class="image1">
+            </figure>
+            <h2>Our staff!</h2>
+            <div class="gallery">
+                <div class="galleryItem">
+                    <figure>
+                        <img src="./images/leoHenao2.png"
+                            alt="a picture of one of our customer services staff his name is Leo">
+                    </figure>
+                    <p>Leonardo Henao.</p>
+                </div>
+                <div class="galleryItem">
+                    <figure>
+                        <img src="./images/manuelaGutierrez.png"
+                            alt="a picture of one of our customer services staff her name is Manuela">
+                    </figure>
+                    <p>Manuela Gutierrez.</p>
+                </div>
+                <div class="galleryItem">
+                    <figure>
+                        <img src="./images/mateoHenao.jpg"
+                            alt="a picture of one of our customer services staff his name is Mateo">
+                    </figure>
+                    <p>Mateo Henao.</p>
+                </div>
+                <div class="galleryItem">
+                    <figure>
+                        <img src="./images/joseOrtega.jpg"
+                            alt="a picture of one of our customer services staff his name is Jose">
+                    </figure>
+                    <p>Jose Ortega.</p>
+                </div>
+                <div class="galleryItem">
+                    <figure>
+                        <img src="./images/lauraHenao.png"
+                            alt="a picture of one of our customer services staff her name is Laura">
+                    </figure>
+                    <p>Laura Henao.</p>
+                </div>
+            </div>
+        </section>
         <section>
-            <h2>
-                Leo's phone number.
-            </h2>
-            <h2>
-                Manuela's phone number.
-            </h2>
+            <form class="formulario">
+                <fieldset>
+                    <legend>Please register your contact information to contact us.</legend>
+                    <div class="contenedorCamposFormulario">
+                        <div class="campo">
+                            <label for="name">Name:</label>
+                            <input class="input" type="text" placeholder="Name">
+                        </div>
+
+                        <div class="campo">
+                            <label for="last name">Last name:</label>
+                            <input class="input" type="text" placeholder="Last Name">
+                        </div>
+
+                        <div class="campo">
+                            <label for="phone number">Phone number:</label>
+                            <input class="input" type="tel" placeholder="Phone number">
+                        </div>
+
+                        <div class="campo">
+                            <label for="email address">E-mail address:</label>
+                            <input class="input" type="email" placeholder="E-mail address">
+                        </div>
+                        <div class="campo">
+                            <input type="radio" id="general" name="purpose" value="general" required>
+                            <label for="general">General Inquiry</label><br>
+                            <input type="radio" id="reservation" name="purpose" value="reservation" required>
+                            <label for="reservation">Reservation Question</label><br>
+                            <input type="radio" id="suggestion" name="purpose" value="suggestion" required>
+                            <label for="suggestion">Website Suggestion</label>
+                        </div>
+                        <div class="campo">
+                            <label for="mensaje">Message:</label>
+                            <textarea class="input"></textarea>
+                        </div>
+                        <div class="campo">
+                            <label for="fnac">Pick a date.</label> <br>
+                            <input type="date" name="fnac" id="fnac" required>
+                        </div>
+                        <legend>How you find us?</legend>
+                        <div class="campo">
+                            <input type="checkbox" name="instagram" id="instagram">
+                            <label for="instagram">Instagram</label> <br>
+                            <input type="checkbox" name="facebook" id="facebook">
+                            <label for="facebook">Facebook</label> <br>
+                            <input type="checkbox" name="twitter" id="twitter">
+                            <label for="twi">Twiter</label> <br>
+                            <input type="checkbox" name="telegram" id="telegram">
+                            <label for="telegram">Telegram</label> <br>
+                        </div>
+                    </div>
+                    <div class="alinearDerecha flex">
+                        <input class="boton w-100" type="submit" value="Enviar">
+                    </div>
+                </fieldset>
+            </form>
         </section>
     </main>
 
@@ -40,12 +175,17 @@
         <div class="text">
             <p>&copy;2024 | HeGu Rafting Company. | Leonardo Henao Arboleda</p>
             <div class="footerLinks">
-                <a href="https://www.facebook.com/" target="_blank"><img src="./images/facebookIcon.svg" alt="Facebook logo"></a>
-                <a href="https://www.instagram.com/" target="_blank"><img src="./images/2657553_media_instagram_social_icon.svg" alt="Instagram logo"></a>
-                <a href="https://x.com/?lang=es" target="_blank"><img src="./images/twitterIcon.svg" alt="Twitter logo"></a>
-                <a href="about.html" target="_blank"><img src="./images/2203525_arrow_botton_menu_up_icon.svg" alt="Icon to return up"></a>
+                <a href="https://www.facebook.com/" target="_blank"><img src="./images/facebookIcon.svg"
+                        alt="Facebook logo"></a>
+                <a href="https://www.instagram.com/" target="_blank"><img
+                        src="./images/2657553_media_instagram_social_icon.svg" alt="Instagram logo"></a>
+                <a href="https://x.com/?lang=es" target="_blank"><img src="./images/twitterIcon.svg"
+                        alt="Twitter logo"></a>
+                <a href="contact.html"><img src="./images/2203525_arrow_botton_menu_up_icon.svg"
+                        alt="Icon to return up"></a>
             </div>
         </div>
     </footer>
 </body>
+
 </html>
