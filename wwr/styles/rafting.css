@@ -103,7 +103,7 @@ body {
     padding: 50px;
     background-color: var(--hegu-color);
     position: relative;
-    background-image: url('../images/river-evening-wide.jpg');
+    background-image: url('images/river-evening-wide.jpg');
     background-size: cover;
     background-position: center;
     height: 500px;
