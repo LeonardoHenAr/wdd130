@@ -414,7 +414,7 @@ iframe {
     gap: 20px;
 }
 
-#carruselSize {
+.carruselSize {
     width: 100%;
     list-style-type: none;
     margin: 0;
