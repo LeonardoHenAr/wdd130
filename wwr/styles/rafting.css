@@ -257,7 +257,7 @@ body {
     justify-content: center;
     align-items: center;
     position: absolute;
-    background-image: url(../wwr/images/work.svg);
+    background-image: url(../images/work.svg);
     background-size: cover;
     background-color: rgba(0, 0, 0, 0.3);
     width: 100%;
@@ -396,6 +396,74 @@ iframe {
     }
 }
 
+/*trips*/
+.trip, .carrusel{
+    background-color: var(--hegu-color);
+}
+
+.carrusel {
+    width: 85%;
+    height: 85%;
+    overflow: hidden;
+    margin: 10px auto;
+}
+.carrusel ul {
+    display: flex;
+    animation: change 10s steps(2) infinite;
+    width: calc(200% + 40px); 
+    gap: 20px;
+}
+
+#carruselSize {
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.carrusel li {
+    width: calc(50% - 10px);
+    list-style-type: none;
+    box-sizing: border-box;
+}
+.carrusel img {
+    height: auto;
+    width: 100%;
+    margin: 25px;
+    display: block;
+    border-radius: 8px;
+}
+
+@keyframes change {
+    0% {
+    margin-left: 0%;
+    }
+    20% {
+    margin-left: 0%;
+    }
+    25% {
+    margin-left: -100%;
+    }
+    45% {
+    margin-left: -100%;
+    }
+    50% {
+    margin-left: -200%;
+    }
+    70% {
+    margin-left: -200%;
+    }
+    75% {
+    margin-left: -300%;
+    }
+    100% {
+    margin-left: -300%;
+    }
+}
+
+.alinearDerecha{
+    text-align: center;
+}
 footer{
     background-color: var(--footer-color);
     text-align: center;
